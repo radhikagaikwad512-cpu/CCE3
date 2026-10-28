@@ -1,5 +1,6 @@
-🎓 Campus Route Finder Using C++
-📌 Project Overview
+Campus Route Finder Using C++
+
+Project Overview
 
 The Campus Route Finder is a C++ console-based application that helps users navigate between different locations on a college campus. It represents campus locations as vertices (nodes) and roads connecting them as edges in a weighted graph.
 
@@ -7,14 +8,17 @@ The application uses graph algorithms such as Dijkstra's Algorithm, Breadth-Firs
 
 The distance between locations is measured in metres, and all roads are considered bidirectional.
 
-🎯 Objectives
+Objectives
+
 Represent campus locations and roads using a graph data structure.
 Find the shortest distance between two campus locations.
 Display all available campus locations and road connections.
 Traverse the campus graph using BFS and DFS.
 Search for a campus location by its name.
 Demonstrate the practical application of graph algorithms in route planning.
-✨ Features
+
+Features
+
 Display Campus Places: Shows all campus locations with their unique IDs.
 Display Road Connections: Lists connected locations and the distances between them.
 Shortest Route Finder: Calculates the shortest distance and displays the route between two locations using Dijkstra's algorithm.
@@ -22,7 +26,8 @@ BFS Traversal: Visits reachable locations level by level using a queue.
 DFS Traversal: Explores reachable locations using recursion.
 Search by Place Name: Finds a location by name, ignoring letter case.
 Input Validation: Handles invalid menu choices, incorrect numeric input, and invalid place IDs.
-🏫 Campus Locations
+
+Campus Locations
 
 The project uses six example campus locations:
 
@@ -33,12 +38,15 @@ ID	Campus Location
 3	ECEBlock
 4	Auditorium
 5	Hostel
-🛠️ Technologies Used
+
+Technologies Used
 Programming Language: C++
 Concepts: Object-Oriented Programming (OOP), Graphs, Arrays, Recursion, Queues
 Algorithms: Dijkstra's Algorithm, BFS, DFS
 Libraries: iostream, string, algorithm, cctype, limits
-🧠 Algorithms Used
+
+Algorithms Used
+
 1. Dijkstra's Algorithm
 
 Dijkstra's algorithm finds the minimum-distance path between a source and a destination in a graph with non-negative edge weights.
@@ -57,14 +65,16 @@ DFS explores one path as deeply as possible before backtracking. This implementa
 
 It helps demonstrate graph traversal and connectivity.
 
-⚙️ How It Works
+How It Works-
+
 Campus locations are stored as graph vertices.
 Roads are represented by weighted edges containing distances in metres.
 Each road is bidirectional, so travel is possible in both directions.
 The user selects an operation from the menu.
 The program executes the corresponding graph algorithm or search operation.
 Results are displayed in the console.
-🚀 Getting Started
+
+Getting Started
 Prerequisites
 
 Install a C++ compiler, such as:
@@ -110,7 +120,7 @@ On Windows:
 bash
 campus.exe
 
-🖥️ Application Menu
+Application Menu
 
 When the program starts, the following menu is displayed:
 
@@ -129,7 +139,8 @@ Enter choice:
 
 Enter the number corresponding to the operation you want to perform.
 
-📊 Example Output
+Example Output-
+
 Finding the Shortest Route
 
 Suppose the user selects option 3, enters source ID 0 (MainGate), and destination ID 5 (Hostel).
@@ -147,7 +158,9 @@ Canteen → Hostel: 550 metres
 Total distance: 850 metres.
 
 Note: The correct shortest distance for the sample graph is 850 metres, not 800 metres. The route shown above has a total distance of 850 metres.
-📁 Project Structure
+
+Project Structure
+
 text
 Campus-Route-Finder/
 ├── campus.cpp
@@ -155,7 +168,8 @@ Campus-Route-Finder/
 
 campus.cpp — Contains the complete C++ implementation.
 README.md — Provides project documentation, setup instructions, and usage information.
-⏱️ Time Complexity
+
+Time Complexity-
 
 Let 
 𝑉
@@ -207,7 +221,8 @@ Search by place name
 
 The implementation uses an adjacency matrix, making it suitable for a small campus graph.
 
-🔮 Future Enhancements
+Future Enhancements
+
 Add more campus locations dynamically.
 Allow users to add or remove roads.
 Display the entire campus network graphically.
@@ -216,10 +231,10 @@ Provide estimated travel time based on walking speed.
 Add a graphical user interface (GUI).
 Store campus locations and road information in a file or database.
 Support multiple routes and alternative path suggestions.
-🎓 Learning Outcomes
+
+Learning Outcomes
 
 Through this project, users can understand:
-
 Graph representation using an adjacency matrix.
 The practical use of Dijkstra's shortest-path algorithm.
 Graph traversal using BFS and DFS.
